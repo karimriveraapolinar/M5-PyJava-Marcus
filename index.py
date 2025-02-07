@@ -142,7 +142,7 @@ for a in range(len(arrayNum)):
     b = arrayNum[a]
     for c in range(len(b)):
         if b[c] > d:
-            d += b[c]
+            d = b[c]
 print(d)
 
 print()

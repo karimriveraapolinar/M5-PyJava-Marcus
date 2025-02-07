@@ -34,7 +34,7 @@ const r1b = document.getElementById('R1B');
 b1b.onclick = function voting(){
     let age = u1b.value;
     age = Number(age);
-    if (age <= 18){
+    if (age < 18){
         r1b.textContent = 'You are not eligible to vote.';
     }
     else{
